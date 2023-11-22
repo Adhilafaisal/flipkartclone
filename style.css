@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:#2874f0 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.logo img{
+    width: 75px;
+    height: 20px;
+    margin-top: 10px;
+}
+.logo p{
+    margin-bottom: 10px;
+    color: #fff;
+    position: relative;
+    top:-5px;
+}
+.logo p span{
+    color: yellow;
+    font-weight: 900;
+}
+.search{
+    background-color: #fff;
+    padding:8px;
+    height: 20px;
+    width: 420px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    bottom: -7px -7px 10px rgba(0,0,0,0.1),7px 7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.login{
+    padding:7px 40px;
+    font-size: 16px;
+    font-weight:550;
+    outline: none;
+    color: #2874f0;
+}
+.navlink{
+    margin:0px 20px;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+.angledown{
+    color: #fff;
+    text-decoration: none;
+    margin:0px 20px;
+    font-size: 19px;
+}
+ .angledown span{
+    font-size: 10px;
+}
+.cart{
+    color: #fff;
+    text-decoration: none;
+    margin:0px 20px;
+    font-size: 19px;
+}
+.cart span{
+    font-size: 15px;
+    
+}
+/* ...header.... */
+
+.grocery{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-radius: 1px solid #ccc;
+   
+}
+.gro{
+   
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex: 1;
+    
+}
+.gro img{
+    width: 64px;
+    height: 64px;
+}
+.gro p{
+    font-weight: 510;
+}
+.gro:hover p{
+    color: #2874f0;
+
+}
+/* .................slide................ */
+.slider{
+    width: 100%;
+    display: flex   ;
+}
+img{
+    width: 100%;
+
+}
+.btn-container{
+    margin: auto;
+}
+.electronics{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    /* height: 100px; */
+    padding: 10px 50px;
+    /* border-radius: 1px solid #ccc;
+   */
+}
+.gadgets{
+   
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex: 1;
+    
+}
+.gadgets img{
+    width: 40%;
+     }
+
+
+
+.gadgets p{
+    font-size: 17px;
+    text-align:start;
+}
+.gadgets h2{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align:start;
+}
+.define{
+    font-size: 17px;
+    text-align:start;
+
+}
+.keyboard{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex: 1;
+}
+.keyboard img{
+    width:60%;
+    margin-left:-42px;
+}
+.keyboard p{
+    
+    font-size: 17px;
+    text-align:start;
+}
+.keyboard h2{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align:start;
+}
+.camera{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex: 1;
+}
+.camera img{
+    width:30%;
+}
+.camera p{
+    
+    font-size: 17px;
+    text-align:start;
+}
+.camera h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
+.pro{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex:0.5;
+}
+.pro img{
+    width:60%;
+}
+.pro p{
+    font-size: 17px;
+    text-align:start;
+}
+.pro h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
+.asus{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex:0.5;
+}
+.asus img{
+    width:65%;
+}
+.asus p{
+    font-size: 17px;
+    text-align:start;
+}
+.asus h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
+.benq{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex:0.5;
+}
+.benq img{
+    width:50%;
+}
+.benq p{
+    font-size: 17px;
+    text-align:start;
+}
+.benq h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
+.monitor{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex:0.5;
+}
+.monitor img{
+    width:65%;
+}
+.monitor p{
+    font-size: 17px;
+    text-align:start;
+}
+.monitor h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
+.viewsonic{
+    
+    width:80px;
+    /* height:112px; */
+    cursor: pointer;
+    flex:0.5;
+}
+.viewsonic img{
+    width:80%;
+}
+.viewsonic p{
+    font-size: 17px;
+    text-align:start;
+}
+.viewsonic h2{
+    margin-top: 10px;
+    font-size: 17px;
+    text-align:start;
+}
